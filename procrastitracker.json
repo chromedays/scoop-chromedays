@@ -1,0 +1,19 @@
+{
+    "version": "2.1",
+    "url": "http://strlen.com/procrastitracker/ProcrastiTracker_Setup.exe",
+    "bin": "procrastitracker.exe",
+    "installer": {
+        "file" :"ProcrastiTracker_Setup.exe",
+        "args": [
+            "/S",
+            "/D=$original_dir"
+        ]
+    },
+    "uninstaller": {
+        "file": "uninstaller.exe",
+        "args": [
+            "/S"
+        ]
+    },
+    "hash": "d34f63ded011d9b28769394d469a0ceb624bce9aa27acb6d821bd6f8078b8cdc"
+}
